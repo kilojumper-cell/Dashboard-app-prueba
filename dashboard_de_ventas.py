@@ -18,7 +18,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from datetime import datetime, timedelta
 import seaborn as sns
-!pip install streamlit
+#!pip install streamlit
 import streamlit as st
 
 #creamos datos sintéticos realistas
@@ -149,7 +149,7 @@ with col2:
 
 #Gráfico completo en la parte superior
 
-st.plotly_chart(fig_dist,use_container_width=True)
+#st.plotly_chart(fig_dist,use_container_width=True)
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile dashboard_ventas.py
